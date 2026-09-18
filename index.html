@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HEIMAN AI 视觉设计作品集，展示创意指导、生成式图像与后期制作。"
+    />
+    <meta name="theme-color" content="#101114" />
+    <title>HEIMAN — AI Visual Portfolio</title>
+    <link rel="preload" href="assets/work-signal.webp" as="image" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#work">跳到作品</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">H/</span>
+        <span>HEIMAN</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="主导航" data-nav>
+        <a href="#work">作品</a>
+        <a href="#process">方法</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/work-signal.webp"
+          alt="红色视觉实验中的抽象人物轮廓"
+          width="1100"
+          height="1450"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-index" aria-hidden="true">PORTFOLIO / 2026</div>
+        <div class="hero-copy">
+          <p class="eyebrow">AI VISUAL DESIGNER · SHANGHAI</p>
+          <h1 id="hero-title">HEIMAN</h1>
+          <div class="hero-meta">
+            <p>以创意指导、生成式图像与后期制作，构建有叙事感的商业视觉。</p>
+            <a class="text-link text-link-light" href="#work">查看精选作品 <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro band" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">SELECTED WORKS / 01—03</p>
+          <h2 id="work-title">图像不是结果，<br />而是被设计的视觉系统。</h2>
+          <p class="section-lede">从方向设定到模型控制，再到最终修饰，每个项目都记录关键判断与迭代路径。</p>
+        </div>
+
+        <article class="featured-project project-red reveal">
+          <button class="project-media lightbox-trigger" type="button" data-image="assets/work-signal.webp" data-title="Signal Bodies">
+            <img src="assets/work-signal.webp" alt="Signal Bodies 红色抽象人物系列" width="1100" height="1450" loading="lazy" />
+            <span class="media-action">查看大图 <span aria-hidden="true">↗</span></span>
+          </button>
+          <div class="project-copy">
+            <p class="project-number">01</p>
+            <h3>Signal Bodies</h3>
+            <p class="project-summary">以极简人物轮廓与高密度红色建立压迫感，探索时尚影像中的匿名身份。</p>
+            <dl class="project-facts">
+              <div><dt>方向</dt><dd>人物 / 时尚实验</dd></div>
+              <div><dt>职责</dt><dd>概念、生成、后期</dd></div>
+              <div><dt>工具</dt><dd>ComfyUI / Photoshop</dd></div>
+              <div><dt>年份</dt><dd>2026</dd></div>
+            </dl>
+            <button class="case-link" type="button" data-toast="案例详情将在替换真实作品后开放">项目案例 <span aria-hidden="true">↗</span></button>
+          </div>
+        </article>
+
+        <article class="featured-project project-blue reverse reveal">
+          <button class="project-media wide lightbox-trigger" type="button" data-image="assets/work-chrome.webp" data-title="Lucid Matter">
+            <img src="assets/work-chrome.webp" alt="Lucid Matter 深蓝色液态材质实验" width="1800" height="1200" loading="lazy" />
+            <span class="media-action">查看大图 <span aria-hidden="true">↗</span></span>
+          </button>
+          <div class="project-copy">
+            <p class="project-number">02</p>
+            <h3>Lucid Matter</h3>
+            <p class="project-summary">通过半透明、金属与织物质感的混合，建立具有呼吸感的数字材质语言。</p>
+            <dl class="project-facts">
+              <div><dt>方向</dt><dd>材质 / 动态研究</dd></div>
+              <div><dt>职责</dt><dd>艺术指导、生成</dd></div>
+              <div><dt>工具</dt><dd>Midjourney / Blender</dd></div>
+              <div><dt>年份</dt><dd>2026</dd></div>
+            </dl>
+            <button class="case-link" type="button" data-toast="案例详情将在替换真实作品后开放">项目案例 <span aria-hidden="true">↗</span></button>
+          </div>
+        </article>
+
+        <article class="featured-project project-neutral reveal">
+          <button class="project-media wide lightbox-trigger" type="button" data-image="assets/work-monolith.webp" data-title="Silent Structure">
+            <img src="assets/work-monolith.webp" alt="Silent Structure 蓝灰色未来建筑概念" width="1500" height="1125" loading="lazy" />
+            <span class="media-action">查看大图 <span aria-hidden="true">↗</span></span>
+          </button>
+          <div class="project-copy">
+            <p class="project-number">03</p>
+            <h3>Silent Structure</h3>
+            <p class="project-summary">以单体建筑、低饱和天空和比例关系，构建克制但具有纪念性的未来空间。</p>
+            <dl class="project-facts">
+              <div><dt>方向</dt><dd>建筑 / 概念空间</dd></div>
+              <div><dt>职责</dt><dd>概念、构图、调色</dd></div>
+              <div><dt>工具</dt><dd>SDXL / Photoshop</dd></div>
+              <div><dt>年份</dt><dd>2025</dd></div>
+            </dl>
+            <button class="case-link" type="button" data-toast="案例详情将在替换真实作品后开放">项目案例 <span aria-hidden="true">↗</span></button>
+          </div>
+        </article>
+      </section>
+
+      <section class="archive band" aria-labelledby="archive-title">
+        <div class="archive-head reveal">
+          <div>
+            <p class="eyebrow dark">VISUAL ARCHIVE / 04—08</p>
+            <h2 id="archive-title">更多视觉实验</h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="作品分类">
+            <button type="button" role="tab" aria-selected="true" data-filter="all">全部</button>
+            <button type="button" role="tab" aria-selected="false" data-filter="commercial">商业</button>
+            <button type="button" role="tab" aria-selected="false" data-filter="concept">概念</button>
+            <button type="button" role="tab" aria-selected="false" data-filter="experiment">实验</button>
+          </div>
+        </div>
+
+        <div class="archive-grid">
+          <figure class="archive-item portrait reveal" data-category="experiment">
+            <button class="lightbox-trigger" type="button" data-image="assets/work-bioform.webp" data-title="Bioform 04">
+              <img src="assets/work-bioform.webp" alt="绿色有机形态视觉研究" width="1200" height="1500" loading="lazy" />
+            </button>
+            <figcaption><span>Bioform 04</span><span>Material Study · 2026</span></figcaption>
+          </figure>
+          <figure class="archive-item landscape reveal" data-category="commercial">
+            <button class="lightbox-trigger" type="button" data-image="assets/work-object.webp" data-title="Object No. 07">
+              <img src="assets/work-object.webp" alt="琥珀色产品造型实验" width="1500" height="1050" loading="lazy" />
+            </button>
+            <figcaption><span>Object No. 07</span><span>Product Visual · 2026</span></figcaption>
+          </figure>
+          <figure class="archive-item landscape reveal" data-category="concept">
+            <button class="lightbox-trigger" type="button" data-image="assets/work-orbit.webp" data-title="Orbital Ritual">
+              <img src="assets/work-orbit.webp" alt="紫色轨道与几何体概念视觉" width="1500" height="1125" loading="lazy" />
+            </button>
+            <figcaption><span>Orbital Ritual</span><span>Concept Art · 2025</span></figcaption>
+          </figure>
+          <figure class="archive-item portrait reveal" data-category="experiment">
+            <button class="lightbox-trigger" type="button" data-image="assets/work-tide.webp" data-title="Electric Tide">
+              <img src="assets/work-tide.webp" alt="青色运动人物视觉研究" width="1100" height="1450" loading="lazy" />
+            </button>
+            <figcaption><span>Electric Tide</span><span>Motion Study · 2025</span></figcaption>
+          </figure>
+          <figure class="archive-item landscape reveal" data-category="commercial">
+            <button class="lightbox-trigger" type="button" data-image="assets/work-system.webp" data-title="Image System 01">
+              <img src="assets/work-system.webp" alt="黑蓝红几何图像系统" width="1500" height="1125" loading="lazy" />
+            </button>
+            <figcaption><span>Image System 01</span><span>Campaign System · 2025</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="process" id="process" aria-labelledby="process-title">
+        <div class="process-inner">
+          <div class="process-heading reveal">
+            <p class="eyebrow">PROCESS / NOT JUST PROMPTS</p>
+            <h2 id="process-title">从模糊想法，<br />到可控结果。</h2>
+          </div>
+          <ol class="process-list">
+            <li class="reveal">
+              <span>01</span>
+              <h3>Direction</h3>
+              <p>先定义受众、情绪、构图与视觉边界，让生成过程围绕明确目标展开。</p>
+            </li>
+            <li class="reveal">
+              <span>02</span>
+              <h3>Iteration</h3>
+              <p>通过模型组合、参考控制与批次筛选，持续收紧人物、材质和空间表现。</p>
+            </li>
+            <li class="reveal">
+              <span>03</span>
+              <h3>Finish</h3>
+              <p>在后期统一细节、光线和色彩，使图像达到真实项目所需的完成度。</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="about band" id="about" aria-labelledby="about-title">
+        <div class="about-grid">
+          <p class="eyebrow dark reveal">ABOUT / PROFILE</p>
+          <div class="about-copy reveal">
+            <h2 id="about-title">我关注的不是“生成了什么”，而是为什么这样生成，以及它能否解决真实的视觉问题。</h2>
+            <p>专注于 AI 视觉创作与商业图像方向，将创意概念转化为可控制、可迭代的图像系统。</p>
+          </div>
+          <div class="capabilities reveal" aria-label="专业能力">
+            <span>Creative Direction</span>
+            <span>Prompt Strategy</span>
+            <span>ComfyUI Workflow</span>
+            <span>Image Retouching</span>
+            <span>Style Development</span>
+            <span>Commercial Visual</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div>
+        <p class="eyebrow">AVAILABLE FOR OPPORTUNITIES</p>
+        <h2>一起创造下一张<br />值得被记住的图像。</h2>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/heimantensorflow" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> HEIMAN</span>
+        <span>AI VISUAL PORTFOLIO</span>
+        <a href="#top">回到顶部 ↑</a>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" data-lightbox aria-label="作品大图预览">
+      <button class="lightbox-close" type="button" aria-label="关闭预览" title="关闭">×</button>
+      <button class="lightbox-nav previous" type="button" aria-label="上一张" title="上一张">←</button>
+      <figure>
+        <img src="" alt="" data-lightbox-image />
+        <figcaption data-lightbox-caption></figcaption>
+      </figure>
+      <button class="lightbox-nav next" type="button" aria-label="下一张" title="下一张">→</button>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite" data-toast-output></div>
+  </body>
+</html>
